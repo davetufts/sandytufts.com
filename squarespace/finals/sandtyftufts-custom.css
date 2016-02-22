@@ -1,0 +1,116 @@
+/*
+CUSTOM CSS for Squarespace Template, FIVE
+http://five-demo.squarespace.com/
+*/
+
+
+h2, h3 {
+  text-align: center;
+}
+h1 + h2 {
+  margin-top: -.5em;
+}
+
+/*
+Hero
+*/
+body.homepage #page-thumb img {
+  visibility: hidden !important;
+}
+body.homepage #page-thumb {
+  background-image: url('//static1.squarespace.com/static/5640b84ce4b007d5b6bddb76/t/56ca5baca3360c4744f6d5c4/1456102317471/sandy-hero.jpg?format=1500w');
+  background-size: cover;
+  background-position: center center;
+}
+
+/*
+Hero height at differnt viewports
+*/
+body.homepage #banner-area-wrapper #banner-area {
+  height: 150px;
+  max-width: none;
+}
+@media only screen and (min-width: 400px) {
+  body.homepage #banner-area-wrapper #banner-area {
+  	height: 200px;
+  }
+}
+@media only screen and (min-width: 550px) {
+  body.homepage #banner-area-wrapper #banner-area {
+  	height: 250px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  body.homepage #banner-area-wrapper #banner-area {
+  	height: 300px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body.homepage #banner-area-wrapper #banner-area {
+  	height: 400px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body.homepage #banner-area-wrapper #banner-area {
+  	height: 500px;
+  }
+}
+
+/*
+CTAs
+*/
+body.homepage blockquote {
+  color: #999;
+  font-size: .8em;
+}
+
+div.callout {
+  padding: 1em;
+  border: 1px solid #9c2c9c;
+  background: rgba(156,44,146,.2);
+  border-radius: .5em;
+}
+div.callout {
+  text-align: center;
+}
+div.paypalbox {
+  padding: 1em;
+  border: 1px solid #9c2c9c;
+  background: rgba(156,44,146,.2);
+  border-radius: .5em;
+}
+
+/* Sidebar Images */
+.image-caption-wrapper {
+  margin: .5em;
+}
+.image-caption-wrapper .image-caption p {
+  color: #666;
+  font-size: .8em !important;
+  line-height: 1.2;
+  text-transform: none;
+  text-align: center;
+}
+
+/* Logo Area */
+#banner {
+  margin-bottom: 1em;
+}
+
+
+/* Footer */
+#page-footer-wrapper {
+  background-color: #e7e7e7;
+  border-top: 2px solid #333;
+}
+
+
+
+/* PDF */
+a[href$=".pdf"]
+{
+  padding-right: 24px;
+  background-image: url(/s/pdf_2.gif);
+  background-position: 100% 50%;
+  background-repeat:no-repeat;
+}
